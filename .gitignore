@@ -1,0 +1,40 @@
+# mac
+.DS_Store
+
+# python
+*.pyc
+
+# vim
+*.swp
+
+# rasa ignore
+models/
+results/
+eval_results/
+
+# juper notebooks
+.ipynb_checkpoints/
+
+.cache/
+
+.idea/
+
+# rasa x
+*.db
+*.db-shm
+*.db-wal
+
+venv/
+
+mlruns
+
+# docker-object
+#docker-object/
+
+# fifo
+*.fifo
+
+# zip
+*.zip
+
+/.vscode/
